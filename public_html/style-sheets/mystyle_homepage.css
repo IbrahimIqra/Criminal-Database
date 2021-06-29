@@ -1,0 +1,90 @@
+h1 {
+    width: 50%;
+    border: 3px dashed white;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 5px;
+    border: none;
+    background: none;
+}
+
+.wrapper span {
+    width: 25%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.wrapper span button{
+    display: inline-block;
+    width: 100%;
+    border-radius: 50px;
+    background-color: royalblue;
+    /*border: 1px solid white;*/
+    border: none;
+    color: white;
+    padding: 30px 40px;
+    font-size: 150%;
+    font-family: fantasy;
+    color: black;
+    cursor: pointer;
+}
+.wrapper span button:hover{
+    color: white;
+}
+#success{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 35%;
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 100%;
+    font-family: cursive;
+    color: greenyellow;
+    background-color: black;
+}
+#Crime{
+    float: left;
+}
+#Police{
+    float: right;
+}
+#Case{
+    float: left;
+}
+#Plaintiff{
+    float: right;
+}
+
+.forms{
+    display: none;
+}
+
+.guide{
+    position: relative;
+    left: 35%;
+    float: left;
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: cursive;
+    display: inline-block;
+    border: none;
+    width: 30%;
+    height: 250px;
+}
+.srch label{
+    font-size: 20px;
+    font-family: fantasy;
+    color: white;
+    /*border: 1px dashed white;*/
+}

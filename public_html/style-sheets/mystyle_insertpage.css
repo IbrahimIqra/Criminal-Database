@@ -1,0 +1,67 @@
+#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #34495e;
+}
+#home-wrapper{
+	width:1000px;
+	margin: 0 auto;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #34495e;
+}
+.avatar{
+	width: 150px;
+	text-align:center;
+}
+.avatarRegis{
+	width: 150px;
+	text-align: center;
+}
+.avatarHome{
+	width: 50px;
+	text-align: right;
+}
+.myform{ 
+	width:200px;
+	margin: 0 auto; 
+}
+.inputvalues, select{
+	width: 200px;
+	margin: 0 auto;
+}
+#signup_btn{
+	margin-top: 10px;
+	background-color: #34495e;
+	padding: 5px;
+	color:white;
+	width: 200px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+label{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 120%;
+}
+#success{
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 45%;
+    font-family: cursive;
+    color: greenyellow;
+    background-color: black;
+}
+#failure{
+    padding: 10px 10px;
+    border-radius: 50px;
+    width: 45%;
+    font-family: cursive;
+    color: white;
+    background-color: darkred;
+}

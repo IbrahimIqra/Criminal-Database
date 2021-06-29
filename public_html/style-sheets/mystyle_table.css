@@ -1,0 +1,86 @@
+h1, table p{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+#del_notice{
+    width: 20%;
+    font-size: 30px; 
+    color: red;
+    border: 1px solid white;
+    background-color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+#ed_notice{
+    width: 20%;
+    font-size: 30px; 
+    color: white;
+    border: 1px solid white;
+    background-color: green;
+    text-align: center;
+    font-family: monospace;
+}
+
+table {
+  font-family: "Trebuchet MS", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 3px solid #eee;
+  padding: 8px;
+}
+
+table tr{
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #ccc;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkslateblue;
+  color: white;
+}
+
+table td form .hide{
+    display: none;
+}
+
+#rfrsh{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#editbtn{
+    color: white;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+#editbtn:hover{
+    background-color: deepskyblue;
+}
+#deletebtn{
+    color: white;
+    border: none;
+    background-color: #db5e5c;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+#deletebtn:hover{
+    background-color: red;
+}

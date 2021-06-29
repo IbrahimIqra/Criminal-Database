@@ -1,0 +1,52 @@
+body{
+    background: url(../images/HomePage_background.jpg);
+}
+
+.nav{
+    position: relative;
+    margin-top: -10px;
+    margin-left: -5px;
+    width: 100%;
+    background-color: #595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 15px 5px 60px 5px;
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    position: relative;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 12px 50px;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+.nav li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#lgout{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 5%;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#lgout:hover{
+    background-color: orangered;
+    color: white;
+}
